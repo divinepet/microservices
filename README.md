@@ -1,13 +1,12 @@
 # Microservices
-
-###### Set of microservices for obtaining COVID-statistic in different countries
-
+![Main image](image.png)
+Microservices which provides information on statistics on COVID-19 for any country using third-party resource [corona-api.com](http://corona-api.com) and [restcountries.com](https://restcountries.com)
 ## Getting started
+### 1. Build project
 ```shell
 mvn clean install
 ```
-
-### with IDE
+### 2.1 Launch with CLI
 In root (ex00) folder:
 ```shell
 java -jar {SERVICE_NAME}/target/{*.jar}
@@ -19,7 +18,7 @@ Microservices order:
 4. aggregator
 5. api-gateway
 
-### with Docker
+### 2.2 Launch in Docker
 In root folder:
 ```shell
 docker-compose up -d
