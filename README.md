@@ -1,4 +1,5 @@
 # Microservices
+<img src="https://img.shields.io/badge/maven-C71A36.svg?logo=apache-maven&logoColor=white"/> <img src="https://img.shields.io/badge/tomcat-f7d473.svg?logo=apache-tomcat&logoColor=black"/> <img src="https://img.shields.io/badge/docker-2496ED.svg?logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/spring-6DB33F.svg?logo=spring&logoColor=white"/>
 ![Main image](image.png)
 Microservices which provides information on statistics on COVID-19 for any country using third-party resource [corona-api.com](http://corona-api.com) and [restcountries.com](https://restcountries.com)
 ## Getting started
